@@ -1,1 +1,16 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: blue;
+}
+img {
+  width: 300px;
+  margin: 10px;
+}
