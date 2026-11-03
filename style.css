@@ -27,5 +27,10 @@ img {
 .hide {
   display: none;
 }
+.gallery-container {
+  display: flex;
+  align-items: center;
+  gap 15px;
+}
 
 
