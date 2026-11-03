@@ -1,4 +1,4 @@
-const images = document.quarySelectorAll('.portfolio-img');
+const images = document.querySelectorAll('.portfolio-img');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document .getElementById('nextBtn');
 
