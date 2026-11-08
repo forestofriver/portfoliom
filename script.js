@@ -23,3 +23,30 @@ prevBtn.addEventListener('click',() => {
   }
   showImage(currentIndex);
 });
+
+const images2 = document.querySelectorAll('.portfolio-img2');
+const prevBtn2 = document.getElementById('prevBtn2');
+const nextBtn2 = document.getElementById('nextBtn2');
+
+let currentIndex2 = 0;
+
+function showImage2(index) {
+  images2.forEach(img => img.classList.add('hide'));
+  images2[index].classList.remove('hide');
+}
+
+nextBtn2.addEventListener('click', () => {
+  currentIndex2++;
+  if (currentIndex2 >= images2.length) {
+    currentIndex2 = 0;
+  }
+  showImage2(currentIndex2);
+});
+
+prevBtn2.addEventListener('click', () => {
+  currentIndex2--;
+  if (currentIndex2 < 0) {
+    currentIndex2 = images2.length - 1;
+  }
+  showImage2(currentIndex2);
+});
