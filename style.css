@@ -27,3 +27,13 @@ img {
 .hide {
   display: none;
 }
+
+.portfolio-img2 {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+}
+.hide {
+  display: none;
+}
